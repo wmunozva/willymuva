@@ -1,0 +1,14 @@
+.articulo img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+.imagenes{
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+

@@ -1,0 +1,90 @@
+@import url('index.css');
+@import url('nav.css');
+
+@import url('soy.css');
+@import url('galeria.css');
+
+@import url('formulario.css');
+@import url('principal.css');
+@import url('servi.css');
+@import url('blog.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #036673;
+  
+}
+
+.tit-nav {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tit-nav .nombre {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+.tit-nav .profesion {
+  color: #fff;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.titgral{
+  width: 700px;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.articulo{
+  width: 75%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0,0.5);
+}
+
+.tit-art{
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fecha{
+  width: 100%;
+  text-align: end;
+  padding: 20px;
+
+}
